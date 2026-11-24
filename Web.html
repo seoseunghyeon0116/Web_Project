@@ -47,11 +47,11 @@
                 <option value="거리">거리순</option>
             </select>
         </div>
+    
     <div class="button">
-        <button onclick="recommendFood()">전체메뉴 보기</button>
-        <button class="random-button" onclick="randomRecommend()">랜덤메뉴 추천</button>
+        <button id="allBtn" onclick="recommendFood()">전체메뉴 보기</button>
+        <button id="randomBtn" class="random-button" onclick="randomRecommend()">랜덤메뉴 추천</button>
     </div>
-
     <p class="hint">금액에 맞는 메뉴를 검색하거나 랜덤으로 추천받아보세요</p>
 
     <div class="result-header">
@@ -76,5 +76,7 @@
     <footer>오늘 뭐 먹지? 앞으론 고민하지말고 추천받자 </footer>
 
     </div>
+
+    <script src="web.js"></script>
 </body>
 </html>
